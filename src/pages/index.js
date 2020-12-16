@@ -23,10 +23,13 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            I am a student at UFRPE attending the end of my undergraduate degree
+            in computer science. I am passionate about programming and I was a 
+            beginner researcher in Learning Analytics and I am currently a WEB
+            programmer with a grant from UFRPE trying to improve my developer skills.
+            In addition, I am passionate about fighting games, coffee despite 
+            moderating consumption and I love reading and spending time with friends
+            and family. 
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,74 +55,60 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Web fullstack junior developer</h3>
+              <div className="subheading mb-3">UFRPE - IPÊ</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                I work in the development of internal systems for the University,
+                usually websites promoting research groups. The technologies 
+                used are the basic WEB together with the Bootstrap 4 framework
+                for Frontend and for Backend we use Drupal and PHP.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">November 2020 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Grant from FACEPE - PIBIC</h3>
+              <div className="subheading mb-3">UFRPE - EVANTE</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                In this scholarship I tried to build a dashboard using the R
+                language with the Shiny framework and other packages for 
+                handling data visualization such as the tidyverse packages.
+                At the end of the scholarship we built a panel in order to give
+                teachers and managers ways to evaluate students formatively in 
+                addition to providing information to guide decision making within
+                the classroom, improving the teaching-learning process.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">March 2020 - November 2020</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Grant from CNPQ - PIBITI</h3>
+              <div className="subheading mb-3">UFRPE - EVANTE</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                I used data processing, analysis anda visualization techniques 
+                in Python and R languages ​​to analyze educational data and with
+                the results we had ideas to improve virtual learning environments.
+                Dessa ideias vieram a concepção de alguns dashboards que construímos
+                para serem utilizados com o ambiente virtual de aprendizagem moodle
+                e dar a professores e gestores a capacidade de avaliar formativamente
+                os alunos em disciplinas híbridas e à distância através da análise
+                do comportamento e interação dos alunos na plataforma
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">July 2018 - August 2019</span>
             </div>
           </div>
         </div>
-      </section>
-
+      </ section>
       <hr className="m-0" />
 
       <section
@@ -131,26 +120,14 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Universidade Federal Rural de Pernambuco</h3>
+              <div className="subheading mb-3">Degree in computing</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">January 2017 - Present</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -177,31 +154,40 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-r-project"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-bootstrap"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-git-alt"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-github"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-linux"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-python"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-php"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-yarn"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="fab fa-trello"></i>
             </li>
           </ul>
 
@@ -209,15 +195,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Responsive Design
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -236,16 +214,10 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            In addition to wanting to become a web developer, I enjoy most of the time with my friends and family. When I'm just spending time reading and / or playing fighting games.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            When I'm tired, I see series and films usually of science fiction and fantasy, I love to cook and spend a good part of my time studying and building fullstack projects for the web.
           </p>
         </div>
       </section>
@@ -261,34 +233,51 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              Publication of an article in RENOTE 2020 - "Uma Revisão Sistemática da Literatura para Identificação de Lacunas de Pesquisa Relacionadas a Mineração de Processos Educacionais"
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              Publication of an article in RENOTE 2020 - "Mapeamento das Tecnologias Educacionais Digitais adotadas para o ensino-aprendizagem de Matemática em instituições de Ensino Médio no Brasil"
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Scrum Foundation Professional Certificate(SFPC) - CertiProf
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Advanced Training in Machine Learning using Google Cloud - Parqtel/UPE
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Code Like a Fullstack Girl - Digital Inovation One
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Become Remote -  Digital Inovation One
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Intermediary English I - LEAD DELL
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Introduction to Linux - Lúmina UFRGS
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              UI and UX - Tim Tec
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Python 3 Fast Course - Cod3r
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Volunteer to technical team assistant at TDC Recife 2019
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Volunteer for technical team assistant at CTRL + E 2019
             </li>
           </ul>
         </div>

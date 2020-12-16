@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Lucielton Resume', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -7,33 +7,23 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  pathPrefix: `/lucielton-resume/`, // This path is subpath of your hosting https://domain/portfolio
+  firstName: 'Lucielton',
+  lastName: 'Silva',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/Lucielton',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.linkedin.com/in/lucielton/',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'lucieltonmanoel@gmail.com',
+  phone: '(81)98756-2203',
+  address: 'Recife, PE',
 };
